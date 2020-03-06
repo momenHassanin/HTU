@@ -1,0 +1,32 @@
+@keyframes rod{
+	0%{transform: translateX(0px);}
+	
+	100%{transform: translateX(450px);}
+}
+hr{
+	border:2px dashed;
+}
+.road{
+	width: 500px;
+	height: 300px;
+	border:10px solid;
+	background-color: #aaa;
+}
+
+.ca1{
+	height: 80px;
+	animation: rod 7s;
+}
+.ca2{
+	height: 80px;
+	animation: rod 5s;
+}
+.ca3{
+
+animation: rod 9s;
+}
+img{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+}

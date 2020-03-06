@@ -1,0 +1,38 @@
+.cont{
+	margin-left: 500px;
+	margin-top: 300px;
+
+}
+@keyframes h{
+	10%{ transform: scale(1.5,1.5); }
+	30%{ transform: scale(1,1); }
+	50%{ transform: scale(1.5,1.5); }
+	60%{ transform: scale(1,1); }
+	70%{ transform: scale(1.5,1.5); }
+	80%{ transform: scale(.7,.7); }
+	100%{ transform: scale(1,1); }
+}
+/*@keyframes draw{
+  0%{width: 50px;}
+  25%{transform: translateY(25px);width: 100px;   }
+  50%{transform: translateY(-25px);width: 150px; }
+  75%{transform: translateY(25px) translateX(30px); }
+  85%{transform: translateY(25px) }
+  100%{transform: translateY(0px) }
+   }*/
+
+.heart_img{
+	width:200px;
+	height: 200px;
+	animation:h 4s infinite alternate;
+}
+.beat-loader{
+	width: 20px;
+	position: absolute;
+	top:380px;
+	right:400px;
+	height: 12px;
+	background-color: gray;
+  	color:red;
+  	animation:draw 1.4s linear infinite;
+}
